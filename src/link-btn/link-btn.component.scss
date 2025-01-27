@@ -1,0 +1,23 @@
+@use "../styles.scss" as s;
+button {
+  font-family: "Inter", serif;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  color: s.$White;
+  background-color: s.$Grey700;
+  padding: 1rem 0;
+  width: 100%;
+  max-width: s.$mobile - 40;
+  transition: all 0.2s;
+  &:hover {
+    cursor: pointer;
+    background-color: s.$Green;
+    color: s.$Grey900;
+  }
+  &:focus {
+    cursor: pointer;
+    background-color: s.$Green;
+    color: s.$Grey900;
+  }
+}
