@@ -5,20 +5,20 @@ button {
   border-radius: 8px;
   font-weight: 600;
   color: s.$White;
-  background-color: s.$Grey700;
+  background-color: s.$lightBackground;
   padding: 1rem 0;
   width: 100%;
   transition: all 0.2s;
   align-self: center;
   &:hover {
     cursor: pointer;
-    background-color: s.$Green;
-    color: s.$Grey900;
+    background-color: s.$contrast;
+    color: s.$heavyBackground;
   }
   &:focus {
     cursor: pointer;
-    background-color: s.$Green;
-    color: s.$Grey900;
+    background-color: s.$contrast;
+    color: s.$heavyBackground;
   }
   &:focus-visible {
     outline: none;

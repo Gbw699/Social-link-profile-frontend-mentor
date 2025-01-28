@@ -3,11 +3,17 @@
 $mobile: 375px;
 $desktop: 1440px;
 
-$Green: hsl(75, 94%, 57%);
 $White: hsl(0, 0%, 100%);
-$Grey700: hsl(0, 0%, 20%);
-$Grey800: hsl(0, 0%, 12%);
-$Grey900: hsl(0, 0%, 8%);
+
+// $contrast: hsl(75, 94%, 57%);
+// $lightBackground: hsl(0, 0%, 20%);
+// $mediumBackground: hsl(0, 0%, 12%);
+// $heavyBackground: hsl(0, 0%, 8%);
+
+$contrast: #edf4c2;
+$lightBackground: #cc2b52;
+$mediumBackground: #af1740;
+$heavyBackground: #740938;
 
 html,
 body {
@@ -21,7 +27,7 @@ body {
   /*Font-weigtht values 400, 600, 700*/
   font-weight: 400;
   font-style: normal;
-  background-color: $Grey900;
+  background-color: $heavyBackground;
   app-root {
     display: flex;
     justify-content: center;
