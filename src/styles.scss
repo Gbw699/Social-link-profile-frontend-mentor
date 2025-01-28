@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&subset=latin&display=swap");
 
-
 $mobile: 375px;
 $desktop: 1440px;
 
@@ -35,5 +34,10 @@ body {
     align-items: center;
     height: 100%;
     overflow: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
