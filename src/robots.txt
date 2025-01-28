@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /avatar-jessica.jpeg/
+Disallow: /favicon-32x32.png/
+Disallow: /profile-img.png/
+Allow: /index.html/
+
+Sitemap: https://social-link-profile-gbw699.vercel.app/src/index.html
