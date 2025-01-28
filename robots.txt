@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /public/
+
+Sitemap: https://social-link-profile-gbw699.vercel.app/src/index.html
